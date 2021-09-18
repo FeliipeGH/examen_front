@@ -9,7 +9,7 @@ export const Footer = ({fluid = false}) => {
     const {versionApp} = useSelector((state) => state.mainReducer);
     return (
         <Box className={classes.content}>
-            <Container maxWidth={fluid ? true : "lg"}>
+            <Container maxWidth={fluid ? false : "lg"}>
                 <Box className={classes.left}>
                     <Box className={"flex flex-nowrap " + classes.copyRight}>
                         Copyright &copy; {new Date().getFullYear()}. Hecho por &nbsp;

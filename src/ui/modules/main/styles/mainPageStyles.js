@@ -33,4 +33,7 @@ export const mainPageStyles = (theme) => ({
         color: "#555"
     },
     button,
+    mainContentRequest: {
+        height: "100vh"
+    }
 });

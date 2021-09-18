@@ -1,4 +1,4 @@
-import {defaultFont} from "../../../../assets/styles/jss/globalStyles";
+import {button, defaultFont} from "../../../../assets/styles/jss/globalStyles";
 import {ColorList} from "../../../theme/ColorList";
 
 export const cardContainerStyles = (theme) => ({
@@ -29,4 +29,20 @@ export const cardContainerStyles = (theme) => ({
         position: "relative",
         padding: "0.75rem"
     },
+    titleContent: {
+        display: "flex",
+        justifyContent: "space-between",
+        margin: "0.38rem 0 0 4.5rem",
+        padding: "0.35rem 0.35rem"
+    },
+    title: {
+        ...defaultFont,
+        fontSize: "1.25rem",
+        lineHeight: "1.75rem"
+    },
+    button,
+    content: {
+        padding: "0.45rem",
+        marginTop: "1rem"
+    }
 });
